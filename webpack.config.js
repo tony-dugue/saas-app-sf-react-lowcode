@@ -56,7 +56,7 @@ Encore
     })
 
     // enables Sass/SCSS support
-    //.enableSassLoader()
+    .enableSassLoader()
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()
@@ -70,6 +70,20 @@ Encore
 
     // uncomment if you're having problems with a jQuery plugin
     //.autoProvidejQuery()
+
+    // Alias
+    .addAliases({
+        'components': `${__dirname}/assets/js/components`,
+        'features': `${__dirname}/assets/js/features`,
+        'scenes': `${__dirname}/assets/js/scenes`,
+        'services': `${__dirname}/assets/js/services`,
+        'api': `${__dirname}/assets/js/services/api`,
+        'security': `${__dirname}/assets/js/services/security`,
+        'stores': `${__dirname}/assets/js/services/stores`,
+        'routes': `${__dirname}/assets/js`,
+        'styles': `${__dirname}/assets/styles`,
+    })
+
 ;
 
 module.exports = Encore.getWebpackConfig();
