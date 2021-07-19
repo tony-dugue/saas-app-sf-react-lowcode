@@ -80,7 +80,7 @@ Encore
         'api': `${__dirname}/assets/js/services/api`,
         'security': `${__dirname}/assets/js/services/security`,
         'stores': `${__dirname}/assets/js/services/stores`,
-        'routes': `${__dirname}/assets/js`,
+        'app': `${__dirname}/assets/js`,
         'styles': `${__dirname}/assets/styles`,
     })
 
