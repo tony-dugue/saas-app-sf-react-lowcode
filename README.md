@@ -39,3 +39,11 @@ Pour démarrer la compilation des assets :
 ```sh
 $ npm run watch
 ```
+
+## Tests unitaires
+***
+
+Pour lancer les test unitaires :
+```sh
+$ php bin/phpunit --testdox
+```
